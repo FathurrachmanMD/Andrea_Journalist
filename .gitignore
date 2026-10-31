@@ -1,0 +1,18 @@
+# Godot-specific ignores
+.import/
+export_presets.cfg
+
+# Mono-specific ignores (jika ada)
+.mono/
+data_*/
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# Hasil ekspor (opsional, jika foldernya ada di dalam proyek)
+html5_build/
+*.html
+*.js
+*.wasm
+*.pck
